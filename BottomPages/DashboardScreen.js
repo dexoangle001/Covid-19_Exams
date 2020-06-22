@@ -9,7 +9,6 @@ import {
     ImageBackground
 } from "react-native";
 import Header from "../components/header";
-import {PieChart, ContributionGraph} from "react-native-chart-kit";
 import {useQuery} from "react-apollo";
 import {GET_COUNTRY_DATA} from "../components/Query";
 import { FlatList, ScrollView } from "react-native-gesture-handler";

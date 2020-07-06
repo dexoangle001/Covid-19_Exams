@@ -5,7 +5,6 @@ import {
     Button,
     StyleSheet,
     Image,
-    Dimensions,
     Picker,
     ActivityIndicator
 } from "react-native";
@@ -20,7 +19,6 @@ import { FlatList } from "react-native-gesture-handler";
 import {
     formatNum,
     communicate,
-    statsData,
   } from '../components/global'; 
 const {width}=Dimensions.get("window")
 const height= width * 0.6;
@@ -129,7 +127,7 @@ const HomeScreen=({navigation})=>{
                 </Picker>
             </View>
 
-            <View style={styles.MySearch}>
+            <View style={styles.Searching_View}>
             <TouchableOpacity
             style={styles.search}
             onPress={() => {
